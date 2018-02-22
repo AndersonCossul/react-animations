@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 
-import "./App.css";
-import Modal from "./components/Modal/Modal";
-import Backdrop from "./components/Backdrop/Backdrop";
-import List from "./components/List/List";
+import "./App.css"
+import Modal from "./components/Modal/Modal"
+import Backdrop from "./components/Backdrop/Backdrop"
+import List from "./components/List/List"
 
 class App extends Component {
   render() {
@@ -16,8 +16,8 @@ class App extends Component {
         <h3>Animating Lists</h3>
         <List />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

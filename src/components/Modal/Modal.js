@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 
-import './Modal.css';
+import './Modal.css'
 
 const modal = (props) => (
-    <div className="Modal">
-        <h1>A Modal</h1>
-        <button className="Button" onClick={props.closed}>Dismiss</button>
-    </div>
-);
+  <div className="Modal">
+    <h1>A Modal</h1>
+    <button className="Button" onClick={props.closed}>Dismiss</button>
+  </div>
+)
 
-export default modal;
+export default modal
